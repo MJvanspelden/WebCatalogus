@@ -1,0 +1,72 @@
+/* Put yor own CSS code here when needed */
+
+body {
+  background:  url(../img/576257-music-hd-wallpapers.jpg);
+  background-repeat: no-repeat;
+  background-image: cover;
+  font-family: Oswald;
+}
+.body1{
+    background:  url(../img/GitaarBG.jpg);
+    background-repeat: no-repeat;
+    background-image: cover;
+    font-family: Oswald;
+}
+
+/* nav bar */
+.container-fluid, .navbar-brand, .nav-link{
+    border: transparent;
+    color: black;
+}
+
+.big-text {
+    position: fixed;
+    top: 300px;
+    bottom: 500px;
+    left: 0px;
+    right: 0px;
+    font-size: 26px;
+    color: black;
+}
+
+.small-text {
+    position: fixed;
+    top: 340px;
+    bottom: 500px;
+    left: 0px;
+    right: 0px;
+    color: black;
+    font-size: 17px;
+}
+
+.glow {
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff4e6, 0 0 20px #fff4e6, 0 0 30px #fff4e6, 0 0 40px #fff4e6, 0 0 50px #fff4e6, 0 0 60px #fff4e6, 0 0 70px #fff4e6;
+    }
+    to {
+      text-shadow: 0 0 20px #fff4e6, 0 0 30px #fff4e6, 0 0 40px #fff4e6, 0 0 50px #fff4e6, 0 0 60px #fff4e6, 0 0 70px #fff4e6, 0 0 80px #fff4e6;
+    }
+  }
+
+.card {
+  border: 1px solid black;
+}
+
+img {
+  width: 200px;
+}
+
+.container-md-one {
+  padding-top: 100px;
+}
+
+button {
+  background: darkblue;
+  border: transparent;
+}
